@@ -1,0 +1,45 @@
+.widget {
+  padding: 100px 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: #fff;
+  border-radius: 8px;
+  width: 345px;
+  margin: auto;
+}
+.widget-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  white-space: nowrap;
+}
+
+.color {
+}
+
+.change-color {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 148px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+
+.change-color:hover {
+  background: #6c8cff;
+}

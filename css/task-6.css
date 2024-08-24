@@ -1,0 +1,87 @@
+.input-number {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 72px;
+  width: 150px;
+  height: 40px;
+}
+
+.create-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 120px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  cursor: pointer;
+  display: block;
+}
+
+.destroy-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  min-width: 120px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  background: #ff4e4e;
+}
+
+.destroy-button:hover {
+  background: #ff7070;
+}
+
+.create-button:hover {
+  background: #6c8cff;
+}
+
+.boxes-container {
+  padding: 32px;
+  background-color: #f6f6fe;
+  width: 486px;
+  border-radius: 8px;
+}
+
+#controls {
+  padding: 32px;
+  background: #f6f6fe;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  margin-bottom: 16px;
+  width: 486px;
+}
+
+#boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 44px;
+}
+
+.controls-boxes-container {
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  width: 534px;
+  margin: auto;
+}
