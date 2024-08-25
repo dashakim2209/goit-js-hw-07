@@ -27,15 +27,14 @@ const images = [
 
 const gallery = document.querySelector(".gallery");
 
-images.forEach((image) => {
-  const GalleryItem = document.createElement("li");
-  GalleryItem.classList.add("gallery-item");
+const galleryMarkup = images
+  .map(
+    (image) => `
+      <li class="gallery-item">
+        <img src="${image.url}" alt="${image.alt}" class="gallery-img">
+      </li>
+    `
+  )
+  .join("");
 
-  const GalleryImg = document.createElement("img");
-  GalleryImg.src = image.url;
-  GalleryImg.alt = image.alt;
-  GalleryImg.classList.add("gallery-img");
-
-  gallery.append(GalleryItem);
-  GalleryItem.append(GalleryImg);
-});
+gallery.insertAdjacentHTML("beforeend", galleryMarkup);
